@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FileText, Book, Edit } from 'lucide-react';
+import { FileText, Book, Edit, Search } from 'lucide-react';
 
 const ServiceCard: React.FC<{ icon: React.ReactNode; title: string; description: string; delay: number }> = ({ icon, title, description, delay }) => {
   return (
@@ -18,6 +18,49 @@ const ServiceCard: React.FC<{ icon: React.ReactNode; title: string; description:
 };
 
 const Services: React.FC = () => {
+  const services = [
+    {
+      icon: <FileText size={32} />,
+      title: "Academic Writing",
+      description: "Expert writing assistance for essays, research papers, case studies, and term papers with proper formatting and citations.",
+    },
+    {
+      icon: <Book size={32} />,
+      title: "Thesis Development",
+      description: "Comprehensive assistance with thesis planning, research methodology, literature review, data analysis, and final writing.",
+    },
+    {
+      icon: <FileText size={32} />,
+      title: "Technical Projects",
+      description: "Support with programming assignments, algorithm development, system design, and technical documentation.",
+    },
+    {
+      icon: <Book size={32} />,
+      title: "Dissertation Support",
+      description: "In-depth guidance through every stage of your dissertation, from proposal to defense preparation.",
+    },
+    {
+      icon: <FileText size={32} />,
+      title: "Rush Assignments",
+      description: "Quick turnaround for urgent academic tasks without compromising on quality and originality.",
+    },
+    {
+      icon: <Edit size={32} />,
+      title: "Revisions & Edits",
+      description: "Detailed editing, proofreading, and revision services to perfect your existing academic work.",
+    },
+    {
+      icon: <Book size={32} />,
+      title: "Literature Review",
+      description: "Comprehensive analysis of scholarly sources relevant to your research topic or academic field.",
+    },
+    {
+      icon: <Search size={32} />,
+      title: "Plagiarism Check",
+      description: "Thorough review of your academic work to ensure originality and proper citation of sources.",
+    }
+  ];
+
   return (
     <section id="services" className="section-padding bg-ivory">
       <div className="container mx-auto">
@@ -29,27 +72,16 @@ const Services: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <ServiceCard 
-            icon={<FileText size={32} />} 
-            title="Essay Writing" 
-            description="Custom essays crafted to meet your requirements and academic standards."
-            delay={0.2}
-          />
-          
-          <ServiceCard 
-            icon={<Book size={32} />} 
-            title="Dissertation & Thesis Support" 
-            description="Expert guidance for structuring, researching, and writing your major projects."
-            delay={0.4}
-          />
-          
-          <ServiceCard 
-            icon={<Edit size={32} />} 
-            title="Editing & Proofreading" 
-            description="Polish your work with professional edits for clarity and academic rigor."
-            delay={0.6}
-          />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {services.map((service, index) => (
+            <ServiceCard 
+              key={service.title}
+              icon={service.icon}
+              title={service.title}
+              description={service.description}
+              delay={0.2 + (index * 0.1)}
+            />
+          ))}
         </div>
       </div>
     </section>

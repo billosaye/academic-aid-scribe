@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <a href="/" className="font-serif text-2xl font-bold mb-4 block">
-              Academic<span className="text-sage">Aid</span>
+              Billy<span className="text-sage">Aid</span>
             </a>
             <p className="text-white/70 mb-4">
               Empowering students since 2020 with professional academic writing support and guidance.
