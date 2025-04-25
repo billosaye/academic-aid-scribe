@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { WhatsApp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const whatsappLink = "https://wa.me/254746220913";
@@ -45,7 +44,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           
-          <div>
+          <div className="w-full md:w-1/2">
             <h3 className="font-bold text-lg mb-4">Stay Updated</h3>
             <p className="text-white/70 mb-4">
               Subscribe to our newsletter for academic tips and exclusive offers.
@@ -61,7 +60,7 @@ const Footer: React.FC = () => {
                   type="submit" 
                   className="bg-ochre hover:bg-ochre/90 rounded-r-md px-4 py-2 transition-colors duration-300"
                 >
-                  <WhatsApp size={18} />
+                  <MessageCircle size={18} />
                 </button>
               </div>
             </form>
@@ -72,7 +71,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <WhatsApp size={18} />
+                <MessageCircle size={18} />
               </a>
             </div>
           </div>
