@@ -1,8 +1,10 @@
 
 import React from 'react';
-import { Mail, Search, Link } from 'lucide-react';
+import { WhatsApp } from 'lucide-react';
 
 const Footer: React.FC = () => {
+  const whatsappLink = "https://wa.me/254746220913";
+  
   return (
     <footer id="contact" className="bg-navy text-white">
       <div className="container mx-auto pt-16 pb-8 px-4">
@@ -59,19 +61,18 @@ const Footer: React.FC = () => {
                   type="submit" 
                   className="bg-ochre hover:bg-ochre/90 rounded-r-md px-4 py-2 transition-colors duration-300"
                 >
-                  <Mail size={18} />
+                  <WhatsApp size={18} />
                 </button>
               </div>
             </form>
             <div className="flex space-x-4">
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors duration-300">
-                <Search size={18} />
-              </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors duration-300">
-                <Mail size={18} />
-              </a>
-              <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors duration-300">
-                <Link size={18} />
+              <a 
+                href={whatsappLink}
+                className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <WhatsApp size={18} />
               </a>
             </div>
           </div>
