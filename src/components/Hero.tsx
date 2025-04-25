@@ -24,9 +24,9 @@ const Hero: React.FC = () => {
           
           <div className="w-full md:w-1/2 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-              alt="Student working on laptop"
-              className="rounded-lg shadow-xl w-full"
+              src="https://images.unsplash.com/photo-1627556704858-d71a32c67f09"
+              alt="Student graduating in cap and gown"
+              className="rounded-lg shadow-xl w-full object-cover"
             />
           </div>
         </div>
