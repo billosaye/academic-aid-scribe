@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FileText, Users, Check } from 'lucide-react';
 
@@ -15,7 +14,7 @@ const ProcessStep: React.FC<{ number: number; icon: React.ReactNode; title: stri
           <div className="text-sage mr-2">{icon}</div>
           <h3 className="text-xl font-bold font-serif">{title}</h3>
         </div>
-        <p className="text-gray-700">{description}</p>
+        <p className="text-white/90">{description}</p>
       </div>
     </div>
   );

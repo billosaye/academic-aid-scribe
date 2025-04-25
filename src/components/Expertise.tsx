@@ -7,7 +7,7 @@ const Expertise: React.FC = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="w-full md:w-1/2 mb-10 md:mb-0">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in">Why Choose BillyAid?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in">Why Choose BillyEssays?</h2>
             <p className="text-gray-700 mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               Our team of PhD-qualified writers and editors brings years of experience across disciplines, 
               ensuring your work meets the highest academic standards. We understand the unique challenges of 

@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
               Excel in Your Academic Journey with Confidence
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-700 max-w-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              BillyAid provides expert writing support for essays, dissertations, theses, and more, tailored to your academic goals.
+              BillyEssays provides expert writing support for essays, dissertations, theses, and more, tailored to your academic goals.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>              
               <a 
@@ -32,8 +32,8 @@ const Hero: React.FC = () => {
           
           <div className="w-full md:w-1/2 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <img
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-              alt="Student working on laptop"
+              src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+              alt="Students celebrating graduation"
               className="rounded-lg shadow-xl w-full"
             />
           </div>

@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
           <a href="/" className="font-serif text-2xl font-bold text-navy">
             <span className="flex items-center">
               <span className="mr-1" role="img" aria-label="books">📚</span>
-              Billy<span className="text-sage">Aid</span>
+              Billy<span className="text-sage">Essays</span>
             </span>
           </a>
         </div>
@@ -58,7 +58,6 @@ const Navbar: React.FC = () => {
             <a href="#services" className="nav-link" onClick={() => setIsMenuOpen(false)}>Services</a>
             <a href="#how-it-works" className="nav-link" onClick={() => setIsMenuOpen(false)}>How It Works</a>
             <a href="#pricing" className="nav-link" onClick={() => setIsMenuOpen(false)}>Pricing</a>
-            <a href="#about" className="nav-link" onClick={() => setIsMenuOpen(false)}>About</a>
             <a href="https://wa.me/254746220913" target="_blank" rel="noopener noreferrer" className="nav-link flex items-center" onClick={() => setIsMenuOpen(false)}>
               <FaWhatsapp className="w-6 h-6 text-[#25D366]" />
             </a>
