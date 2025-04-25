@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users } from 'lucide-react';
+import { BookOpen, Target, Clock, Trophy } from 'lucide-react';
 
 const Expertise: React.FC = () => {
   return (
@@ -16,12 +16,12 @@ const Expertise: React.FC = () => {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8 animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <div className="border border-sage/20 rounded-lg p-5">
-                <div className="text-lg font-bold font-serif mb-2">100+ Experts</div>
+                <div className="text-lg font-bold font-serif mb-2">10+ Experts</div>
                 <p className="text-sm text-gray-600">Specialized academics covering all major disciplines and subjects.</p>
               </div>
               
               <div className="border border-sage/20 rounded-lg p-5">
-                <div className="text-lg font-bold font-serif mb-2">15+ Years</div>
+                <div className="text-lg font-bold font-serif mb-2">5+ Years</div>
                 <p className="text-sm text-gray-600">Providing trusted academic assistance to students worldwide.</p>
               </div>
               
@@ -35,61 +35,58 @@ const Expertise: React.FC = () => {
                 <p className="text-sm text-gray-600">Consistently high ratings from our student clients.</p>
               </div>
             </div>
-            
           </div>
           
           <div className="w-full md:w-1/2 animate-fade-in" style={{ animationDelay: '0.3s' }}>
             <div className="relative">
               <div className="bg-navy p-7 rounded-lg shadow-xl text-white">
-                <div className="flex items-center mb-6">
-                  <Users size={24} className="mr-3" />
-                  <h3 className="text-xl font-bold">Our Expert Team</h3>
-                </div>
+                <h3 className="text-xl font-bold mb-6">Your Path to Academic Excellence</h3>
                 
                 <div className="space-y-6">
                   <div className="bg-white/10 p-4 rounded-lg">
                     <div className="flex items-center mb-3">
-                      <div className="bg-coral/30 h-12 w-12 rounded-full mr-3"></div>
+                      <BookOpen size={24} className="mr-3 text-coral" />
                       <div>
-                        <div className="font-bold">Dr. Michael Thornton</div>
-                        <div className="text-sm text-white/70">Literature & Humanities</div>
+                        <div className="font-bold">Comprehensive Support</div>
+                        <div className="text-sm text-white/70">From research to final submission</div>
                       </div>
                     </div>
                     <div className="text-sm text-white/80">
-                      PhD from Cambridge, 12+ years of teaching experience, published in leading journals.
+                      Get expert guidance at every step of your academic journey, ensuring your work meets the highest standards.
                     </div>
                   </div>
                   
                   <div className="bg-white/10 p-4 rounded-lg">
                     <div className="flex items-center mb-3">
-                      <div className="bg-sage/30 h-12 w-12 rounded-full mr-3"></div>
+                      <Target size={24} className="mr-3 text-sage" />
                       <div>
-                        <div className="font-bold">Dr. Emily Chen</div>
-                        <div className="text-sm text-white/70">Business & Economics</div>
+                        <div className="font-bold">Precision & Quality</div>
+                        <div className="text-sm text-white/70">Meticulous attention to detail</div>
                       </div>
                     </div>
                     <div className="text-sm text-white/80">
-                      PhD from LSE, former university lecturer, specialized in quantitative research methods.
+                      Every project undergoes rigorous quality checks to ensure academic integrity and excellence.
                     </div>
                   </div>
                   
                   <div className="bg-white/10 p-4 rounded-lg">
                     <div className="flex items-center mb-3">
-                      <div className="bg-ochre/30 h-12 w-12 rounded-full mr-3"></div>
+                      <Clock size={24} className="mr-3 text-ochre" />
                       <div>
-                        <div className="font-bold">Prof. David Kumar</div>
-                        <div className="text-sm text-white/70">Sciences & Engineering</div>
+                        <div className="font-bold">Timely Delivery</div>
+                        <div className="text-sm text-white/70">Never miss a deadline</div>
                       </div>
                     </div>
                     <div className="text-sm text-white/80">
-                      PhD from MIT, research background at CERN, expert in technical and scientific writing.
+                      We understand the importance of deadlines and ensure your work is delivered on time, every time.
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-6 text-center">
-                  <div className="inline-block bg-white/20 rounded-full px-4 py-2 text-sm">
-                    And many more subject specialists...
+                  <div className="inline-flex items-center bg-white/20 rounded-full px-4 py-2 text-sm">
+                    <Trophy size={16} className="mr-2" />
+                    Start your journey to academic success today
                   </div>
                 </div>
               </div>

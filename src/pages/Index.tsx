@@ -9,7 +9,7 @@ import Pricing from '../components/Pricing';
 import Testimonials from '../components/Testimonials';
 import Expertise from '../components/Expertise';
 import CallToAction from '../components/CallToAction';
-import Footer from '../components/Footer';
+
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
       <Testimonials />
       <Expertise />
       <CallToAction />
-      <Footer />
+      
     </div>
   );
 };

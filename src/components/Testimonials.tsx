@@ -36,7 +36,7 @@ const Testimonials: React.FC = () => {
               
               <blockquote className="mb-6">
                 <p className="text-xl font-serif italic text-gray-700">
-                  "AcademicAid helped me ace my dissertation! Their expert writer provided invaluable guidance on my methodology chapter, which had been giving me trouble for weeks. The final paper exceeded my expectations and earned me high praise from my advisor."
+                  "Billy helped me ace my dissertation! Their expert writer provided invaluable guidance on my methodology chapter, which had been giving me trouble for weeks. The final paper exceeded my expectations and earned me high praise from my advisor."
                 </p>
               </blockquote>
               
@@ -44,7 +44,7 @@ const Testimonials: React.FC = () => {
                 <div className="bg-navy/10 h-12 w-12 rounded-full mr-4"></div>
                 <div>
                   <div className="font-bold text-navy">Emma Richardson</div>
-                  <div className="text-sm text-gray-600">Graduate Student, Oxford</div>
+                  <div className="text-sm text-gray-600">Graduate Student</div>
                 </div>
               </div>
             </div>
