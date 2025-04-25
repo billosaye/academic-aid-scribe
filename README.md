@@ -1,4 +1,4 @@
-# Academic Aid Scribe
+# Billy Aid 
 
 A modern web application designed to assist students and educators in managing academic tasks and resources. Built with cutting-edge technologies and a focus on user experience.
 
